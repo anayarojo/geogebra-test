@@ -12,10 +12,13 @@
 <body>
     <div id="ggb-element"></div>
     <script>
+        var width = window.innerWidth;
+        var height = window.innerHeight;
+
         var ggbApp = new GGBApplet({
             "appName": "graphing",
-            "width": 800,
-            "height": 600,
+            "width": width,
+            "height": height,
             "showToolBar": true,
             "showAlgebraInput": true,
             "showMenuBar": true
